@@ -20,7 +20,7 @@ namespace cd_c_validFormSub.Controllers
         }
 
         [HttpGet("")]
-        public IActionResult Index()
+        public ViewResult Index()
         {
             return View();
         }
@@ -30,7 +30,7 @@ namespace cd_c_validFormSub.Controllers
         {
             if(ModelState.IsValid)
             {
-                return View(user);
+                return RedirectToAction("Success");
             }
             else
             {
@@ -39,7 +39,7 @@ namespace cd_c_validFormSub.Controllers
         }
 
         [HttpGet("success")]
-        public IActionResult Success()
+        public ViewResult Success()
         {
             return View();
         }
