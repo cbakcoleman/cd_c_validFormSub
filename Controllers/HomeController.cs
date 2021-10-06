@@ -18,7 +18,27 @@ namespace cd_c_validFormSub.Controllers
             _logger = logger;
         }
 
+        [HttpGet("")]
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost("user/create")]
+        public IActionResult Create(User user)
+        {
+            if(ModelState.IsValid)
+            {
+                return RedirectToAction("Success");
+            }
+            else
+            {
+                return View("Index");
+            }
+        }
+
+        [HttpGet("success")]
+        public IActionResult Success()
         {
             return View();
         }

@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/Views/Home/Success.cshtml",
+      "TargetPath": "Views\\Home\\Success.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

@@ -1,0 +1,7 @@
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/obj/Debug/netcoreapp3.1/cd_c_validFormSub.csprojAssemblyReference.cache
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/obj/Debug/netcoreapp3.1/cd_c_validFormSub.AssemblyInfoInputs.cache
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/obj/Debug/netcoreapp3.1/cd_c_validFormSub.AssemblyInfo.cs
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/obj/Debug/netcoreapp3.1/cd_c_validFormSub.csproj.CoreCompileInputs.cache
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/obj/Debug/netcoreapp3.1/cd_c_validFormSub.MvcApplicationPartsAssemblyInfo.cache
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/obj/Debug/netcoreapp3.1/cd_c_validFormSub.RazorAssemblyInfo.cache
+/Users/cbakcoleman/Desktop/CD_C#/cd_c_validFormSub/obj/Debug/netcoreapp3.1/cd_c_validFormSub.RazorAssemblyInfo.cs
