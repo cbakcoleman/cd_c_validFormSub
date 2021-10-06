@@ -1,5 +1,6 @@
-﻿@model User
-<form asp-action="create" asp-controller="Home" method="post">
+﻿@model cd_c_validFormSub.Models.User
+
+<form asp-action="Create" asp-controller="Home" method="post">
     <span asp-validation-for="firstname"></span>
     <label asp-for="firstname"></label>
     <input asp-for="firstname">

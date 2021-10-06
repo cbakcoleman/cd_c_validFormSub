@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using cd_c_validFormSub.Models;
 
+
 namespace cd_c_validFormSub.Controllers
 {
     public class HomeController : Controller
@@ -29,7 +30,7 @@ namespace cd_c_validFormSub.Controllers
         {
             if(ModelState.IsValid)
             {
-                return RedirectToAction("Success");
+                return View(user);
             }
             else
             {
