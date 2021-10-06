@@ -1,8 +1,24 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model User
+<form asp-action="create" asp-controller="Home" method="post">
+    <span asp-validation-for="firstname"></span>
+    <label asp-for="firstname"></label>
+    <input asp-for="firstname">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <span asp-validation-for="lastname"></span>
+    <label asp-for="lastname"></label>
+    <input asp-for="lastname">
+
+    <span asp-validation-for="age"></span>
+    <label asp-for="age"></label>
+    <input asp-for="age">
+
+    <span asp-validation-for="email"></span>
+    <label asp-for="email"></label>
+    <input asp-for="email">
+
+    <span asp-validation-for="password"></span>
+    <label asp-for="password"></label>
+    <input type="password" asp-for="password">
+
+    <input type="submit" value="Add User">
+</form>
